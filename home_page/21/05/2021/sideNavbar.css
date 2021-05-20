@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2);
+
+body {
+    background-color: gray;
+    font-family:'Exo 2', sans-serif;   
+}
+
+.sidebar, .sidebar *, sidebar::before {
+    transition: all 0.24s ease-in-out;
+}
+
+.sidebar {
+    list-style-type: none;
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    border-radius: 0px 5px 0px;
+    background-color: greenyellow;
+    overflow: hidden;
+    box-shadow: 0.1px 4px rgba(0, 0, 0, 0);
+}
+
+.sidebar li {
+    opacity: 0;
+}
+
+.sidebar:before {
+    content: ">";
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: lightgrey;
+    font-size: 2m;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0);
+}
+
+.sidebar:hover {
+    opacity: 0;
+}
+
+.sidebar:hover {
+    margin-left: -20px;
+}
+
+.sidebar:hover li {
+    opacity: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: lightgrey;
+    line-height: 40px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0);
+    padding: 0 10px;
+    display:block;
+
+}
+
+.sidebar a:hover {
+    color: white;
+
+}
+
+.sidebar li {
+    height:50px;
+    border-bottom: 1px solid darkgray;
+}
+
+.sidebar li:hover {
+    background-color:#10a470;
+}
+
+.sidebar li:last-child {
+    border-bottom:none;
+    border-radius: 0px 0px 5px 0px;
+}
+.sidebar li:first-child {
+    border-radius: 0px 5px 0px 0px;
+}
