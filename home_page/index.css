@@ -1,0 +1,48 @@
+body {
+    background: pink;
+
+}
+section {
+    bottom: rgb(94, 31, 6); 
+    width: 80%;
+    padding: 1em;
+    min-width: 30em;
+    max-width: 30em;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5;
+    font-family: cursive, monospace;
+}
+
+code {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 0.85;
+background: green;
+border: 1px solid white;
+padding: 0.1em;
+vertical-align: baseline;
+}
+
+div {
+    font-size: 18px;
+    line-height: 1.3em;
+    vertical-align: top;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    width: 60%;
+}
+.ib {
+    background: yellow;
+    border: 1px solid rgb(148, 134, 134);
+    float: left;
+}
+.float {
+    background: white;
+    border: 1px solid blue;
+}
+.half {
+    width: 50%;
+}
