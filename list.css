@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    background-color:#f5f5f5;
+    font-family: "Helvetica Neue";
+    height: 100vh;
+    justify-content: center;
+}
+
+.entry-editor{
+    border-top: 3px solid;
+    border-radius: 26px;
+    color: #fff;
+    position: relative;
+    width:325px;
+    background-color:grey;
+}
+
+.entry-editor-options{
+    margin: 26px 0 0;
+    padding: 0px 21px;
+    max-height: 330px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+}
+.entry-editor-enter {
+    margin: 13px 21px 26px;
+
+}
+.entry-editor-enter button {
+
+display: block;
+width: 100%;
+line-height: 26px;
+border-radius:26px;
+}
+.prefix-list {
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+.prefix-list-horizontal {
+    display: flex;
+}
+.prefix-list-horizontal > .prefix-list-item {
+    align-self: center;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+}
+.prefix-list-horizontal > .prefix-list-item:after {
+    width:4px;
+    height: 4px;
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 50%;
+    background-color: #d8dde6
+}
+
+.prefix-list-horizontal >.prefix-list-item:last-child:after {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+.prefix-list-horizontal >.prefix-list-item:last-child:after {
+    content: none;
+}
+
+.prefix-has-dividers > .prefix-list-item {
+    border-bottom:  1px solid #d8dded;
+}
+.prefix-has-space > .prefix-list-item {
+    padding: 13px;
+
+}
+.prefix-list-cards > .prefix-list-cards{
+    border: 1px solid #d8dde6;
+    border-radius: 3px;
+    background-clip: padding-box;
+    padding: 13px
+}
+.prefix-list-cards > .prefix-list-item + .prefix-list-item {
+    margin-top: 7px;
+}
+
