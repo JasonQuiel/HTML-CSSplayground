@@ -5,7 +5,14 @@ h1 {
     font-family: Georgia, "Times New Roman", serif;
     text-indent: 1em;
     text-shadow: 3px 3px 5px #cccccc;
+    text-align: center;
+ }   
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-Right: auto;
 }
+
 body {
     background-color: #e6e6fa;
     color: #191970
@@ -16,19 +23,31 @@ h2 {
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
 }
-nav {
+nav  {
     font-weight: bold;
     font-size: 1.25em;
     word-spacing: 1em;
+}
+nav a {
+    text-decoration: none;
+}
+.company {
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
 }
 p {
     font-size: .90em;
     text-indent: 1em;
 }
 ul {
-    font-weight: bold;
-    
+    font-weight: bold; 
+}
+.important {
+    color: #c70000;
 }
 footer {
-
+    color: #333333;
+    font-size: .75em;
+    font-style: italic;
 }

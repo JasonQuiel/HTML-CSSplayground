@@ -1,0 +1,27 @@
+h1 {
+    background-color: #191970;
+    color: #e6e6fa;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-indent: 1em;
+    text-shadow: 3px 3px 5px #cccccc;
+}
+body {
+    background-color: #e6e6fa;
+    color: #191970
+}
+nav {
+    font-weight: bold;
+    font-size: 1.25em;
+    word-spacing: 1em;
+}
+h2 {
+    background-color: #Aeaed4;
+    color: #191970;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+p {
+    font-size: .90em;
+    text-indent: 2em;
+}

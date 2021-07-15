@@ -1,0 +1,23 @@
+h1 {
+    font-weight: bold;
+    text-align: center;
+    background-color: #D2b48C;
+    color: #221611;
+    line-height: 200%;
+}
+nav {
+   font-weight: bold;
+   word-spacing: 2em;
+   text-align: center;
+}
+body {
+    background-color: #fcebb6;
+    font-family: Verdana, Arial, sans-serif;
+}
+footer {
+    background-color: #d2b48c;
+    font-style: italic;
+    font-size: .60em;
+    text-align: center;
+
+}
