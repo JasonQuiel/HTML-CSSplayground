@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz Night</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Ali.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+              integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+                crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <button id="clear" class="clear btn">
+            <i class = "fa fa-trash"> Clear Card</i>
+        </button>
+        <h1>Quiz Night
+            <button id="Show" class="btn btn-small"
+            <l class="fa fa-eye">Show</l>
+            </button>
+        </h1>
+
+        <div id="Card Container" class="cards">
+            <div class="cards active">
+                <div class="inner-card">
+                    <div class="inner-card front">
+                        <p> What's JavaScript?</p>
+                            <div class="inner-card-back">
+                                 <p>A script language</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="Navigation">
+    <button id="prev" class="btn">
+    <l class="fa fa-arrow-left">Previous</l>
+    </button>
+
+    <p id="current"></p>
+
+    <button id="next" class="btn">
+        <l class="fa fa-arrow-right">Next</l>
+    </button>
+</div>
+
+<div id="add-containter" class="add-containter">
+    <h1>Add New Quiz
+        <button id="hide" class="btn btn-small btn-ghost">
+            <l class="fa fa--times"></l>
+        </button>
+    </h1>
+    <div class="form-group">
+        <label for="Questions">Question</label>
+        <textarea id="question>" placeholder="Enter Your Question"></textarea>
+            <div class="form-group">
+                <label for="Answer">Answer</label>
+                <textarea id="answer>" placeholder="Enter your answer"></textarea>
+             </div>
+     <button id="add-question" class="btn">
+         <l class="fa fa-plus">Add Question</l>
+     </button>   
+    </div>
+</div>
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
